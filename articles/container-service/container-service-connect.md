@@ -44,7 +44,7 @@ Now open a shell and run the following command where:
 ```bash
 # ssh sample
 
-ssh -L PORT:localhost:PORT -N [USERNAME]@[DNSPREFIX]man.[REGION].cloudapp.azure.com -p 2200
+ssh -L PORT:localhost:PORT -N [USERNAME]@[DNSPREFIX]mgmt.[REGION].cloudapp.azure.com -p 2200
 ```
 
 ### Mesos tunnel
